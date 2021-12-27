@@ -10,11 +10,11 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
+                sh "chmod +x -R ${env.WORKSPACE}"
             }
         }
         stage('Test') {
                     steps {
-                        sh "chmod +x -R ${env.WORKSPACE}"
                         sh './jenkins/scripts/test.sh'
                     }
                 }
