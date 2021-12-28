@@ -14,4 +14,4 @@ rm /home/szabist/build-nodeapp.tar.gz
 
 cd /home/szabist/demo-nodeapp
 
-pm2 serve build 8070 --name "demo-nodeapp" --spa
+/usr/local/bin/pm2 serve build 8070 --name "demo-nodeapp" --spa
