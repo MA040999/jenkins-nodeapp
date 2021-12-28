@@ -8,6 +8,12 @@ cp build-nodeapp.tar.gz /home/szabist
 
 rm build-nodeapp.tar.gz
 
+/usr/local/bin/pm2 stop demo-nodeapp
+
+rm -rf /home/szabist/demo-nodeapp
+
+mkdir /home/szabist/demo-nodeapp
+
 tar xf /home/szabist/build-nodeapp.tar.gz -C /home/szabist/demo-nodeapp
 
 rm /home/szabist/build-nodeapp.tar.gz
