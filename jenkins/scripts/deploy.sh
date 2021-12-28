@@ -8,7 +8,7 @@ cp build-nodeapp.tar.gz /home/szabist
 
 rm build-nodeapp.tar.gz
 
-tar xf build-nodeapp.tar.gz -C /home/szabist/demo-nodeapp
+tar xf /home/szabist/build-nodeapp.tar.gz -C /home/szabist/demo-nodeapp
 
 rm build-nodeapp.tar.gz
 
