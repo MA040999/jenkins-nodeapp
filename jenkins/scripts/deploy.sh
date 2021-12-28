@@ -10,7 +10,7 @@ rm build-nodeapp.tar.gz
 
 tar xf /home/szabist/build-nodeapp.tar.gz -C /home/szabist/demo-nodeapp
 
-rm build-nodeapp.tar.gz
+rm /home/szabist/build-nodeapp.tar.gz
 
 cd /home/szabist/demo-nodeapp
 
